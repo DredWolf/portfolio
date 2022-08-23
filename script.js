@@ -30,9 +30,9 @@ function changeToENG() {
 }
 
 
-
-function openMenu(){
-    document.querySelector('.nav').classList.toggle('mobile-nav');
+document.querySelector('.burger').addEventListener('click', function () {
+  document.querySelector('.nav').classList.toggle('mobile-nav');
     console.log('burger work!');
+})
 
-}
+
