@@ -28,3 +28,11 @@ function changeToENG() {
     engBtn.style.color = 'black' 
   }
 }
+
+
+
+function openMenu(){
+    document.querySelector('.nav').classList.toggle('mobile-nav');
+    console.log('burger work!');
+
+}
