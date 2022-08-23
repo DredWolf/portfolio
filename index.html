@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Ruslan Ignatev</title>
+  </head>
+  <body>
+    <div id="home" class="main-screen container">
+      <div class="nav">
+        <a class="nav__link eng" href="#home">Home</a>
+        <a class="nav__link eng" href="#about">About me</a>
+        <a class="nav__link eng" href="#skills">Skills</a>
+        <a class="nav__link eng" href="#portfolio">Portfolio</a>
+        <a class="nav__link eng" href="#contacts">Contacts</a>
+
+        <a class="nav__link ru" href="#home">Начало</a>
+        <a class="nav__link ru" href="#about">Обо мне</a>
+        <a class="nav__link ru" href="#skills">Скилы</a>
+        <a class="nav__link ru" href="#portfolio">Портфолио</a>
+        <a class="nav__link ru" href="#contacts">Контакты</a>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="burger">
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+      </div>
+      <div class="name eng">
+        Ruslan <br />
+        Ignatev
+      </div>
+      <div class="info eng">
+        FullStack developer <br />
+        19 years old, Moscow
+      </div>
+
+      <div class="name ru">
+        Руслан <br />
+        Игнатьев
+      </div>
+      <div class="info ru">
+        FullStack разработчик <br />
+        19 лет, Москва
+      </div>
+
+      <div class="language-picker">
+        <div class="language-picker__wrapper">
+          <div class="language-picker__wrapper2">
+            <div onclick="changeToENG()" class="language-picker__eng active">
+              ENG
+            </div>
+            <div class="language-picker__line"></div>
+            <div onclick="changeToRUS()" class="language-picker__ru">RU</div>
+          </div>
+        </div>
+      </div>
+      <div class="image"></div>
+    </div>
+
+    <div class="about" id="about">
+      <div class="about__container container">
+        <div class="title eng">About me</div>
+        <div class="title ru">Обо мне</div>
+
+        <div class="subtitle eng">
+          Hi, I'm Ruslan – web designer from Moscow. <br> I'm interested in web
+          development and everything connected with it.
+          <br />
+          <br />
+          I'm studying at courses "Skillbox" in IT-Academy. <br> Ready to implement
+          excellent projects with wonderful people.
+        </div>
+        <div class="subtitle ru">
+          Привет, Я Руслан - FullStack разработчик из Москвы. <br> Меня очень
+          интересует веб разработка и все что с ней связано. <br> <br> Свой путь в
+          разработке начал с самостоятельного обучения. <br> Позже обучался на курсах
+          Skillbox, работал на фрилансе, в небольших студиях, <br> в данный момент
+          открыт для любых предложений, <br> крайне заинтересован в попроектных
+          офферах.
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
